@@ -1,0 +1,79 @@
+Bash/Shell Scripting
+
+1. Write a bash script to monitor a log file and alert if a specific keyword appears.
+2. Create a shell script that automates the backup of a directory to an S3 bucket.
+3. Write a script to check if a service (e.g., nginx) is running and restart it if it’s not.
+
+Python Scripting
+
+1. Write a Python script to parse a JSON configuration file and apply the configurations.
+2. Create a Python script that interacts with the AWS SDK to start/stop an EC2 instance.
+3. Develop a Python script that reads from a CSV file, processes the data, and writes the output to a new CSV file.
+
+Docker
+
+1. Write a Dockerfile to containerize a simple Node.js application.
+2. Create a Docker Compose file to set up a multi-container environment with a web application and a database.
+3. Explain how you would optimize a Dockerfile to reduce the image size.
+Kubernetes
+
+1. Write a Kubernetes manifest file to deploy a web application with 3 replicas.
+2. Create a YAML file for a Kubernetes ConfigMap and explain how you would use it in a Pod definition.
+3. Describe the steps to create a Kubernetes Service to expose an application externally.
+
+Terraform
+
+1. Write a Terraform script to provision an AWS EC2 instance with a specific AMI and instance type.
+2. Create a Terraform module that sets up an S3 bucket with versioning and encryption enabled.
+3. Explain how you would manage secrets in Terraform securely.
+
+ Jenkins
+
+1. Write a Jenkins pipeline script (Jenkinsfile) to build and deploy a Java application.
+2. Create a Jenkins pipeline that triggers on a GitHub push event and runs unit tests.
+3. Describe how you would use Jenkins to manage environment-specific configurations.
+
+ Ansible
+
+1. Write an Ansible playbook to install and configure Apache on a remote server.
+2. Create an Ansible playbook to deploy a web application and ensure it is running.
+3. Explain how you would use Ansible Vault to manage sensitive information.
+
+Git
+
+1. Write a git command to squash the last three commits into a single commit.
+2. Explain how to set up a Git hook to run a script before a commit is made.
+3. Describe the steps to resolve a merge conflict in Git.
+
+Basic SQL Questions
+
+1.	Write an SQL query to retrieve all rows from a table named employees.
+2.	How would you insert a new record into the employees table with the values John Doe, john.doe@example.com, and 2023-07-01 for the columns name, email, and hire_date, respectively?
+3.	Write an SQL query to update the email of an employee with employee_id 5 to new.email@example.com.
+   
+Intermediate SQL Questions
+
+1.	Write an SQL query to delete all records from the employees table where the hire_date is before 2020-01-01.
+2.	How would you retrieve the count of employees grouped by their department? Assume there is a department column in the employees table.
+3.	Write an SQL query to join the employees table with a departments table on the department_id column and select the employee's name and department's name.
+
+Advanced SQL Questions
+
+1.	Write an SQL query to find the employee(s) with the highest salary in the employees table. Assume there is a salary column.
+2.	How would you create a backup of the employees table?
+3.	Write an SQL query to create an index on the email column of the employees table.
+   
+SQL in DevOps Context Questions
+
+1.	Explain how you would automate database schema changes as part of a CI/CD pipeline.
+2.	Describe how you would monitor database performance and what metrics you would track.
+3.	How would you ensure database security and compliance?
+   
+Practical SQL Exercises
+
+1.	Given a table logs with columns log_id, timestamp, level, and message, write an SQL query to retrieve the last 10 error messages (assume level = 'ERROR').
+2.	How would you optimize a slow query that performs a full table scan on a large orders table to find orders within a specific date range?
+
+
+
+
